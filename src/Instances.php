@@ -111,6 +111,10 @@ class Instances
             $hasOS = true;
             $ba['app_id'] = $oa['app_id'];
         }
+        if (isset($oa['image_id'])) {
+            $hasOS = true;
+            $ba['image_id']  = $oa['image_id'];
+        }
         if (!$hasOS) {
             throw new InvalidParameterException("At least one OS parameter (os_id, iso_id, snapshot_id or app_id) is missing");
         }
