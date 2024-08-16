@@ -4,7 +4,7 @@
     "keywords": ["php", "automation", "Vultr", "paas", "headless", "server administration"],
     "type": "library",
     "require": {
-        "monolog/monolog": "^2.2",
+        "monolog/monolog": "^3.7.0",
         "guzzlehttp/guzzle": "^7.2",
         "aws/aws-sdk-php": "^3.171",
         "ext-json": "*"
